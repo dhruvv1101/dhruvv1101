@@ -79,12 +79,16 @@ Profile: [github.com/dhruvv1101](https://github.com/dhruvv1101)
 ## GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dhruvv1101&show_icons=true&theme=transparent&title_color=111111&text_color=374151&icon_color=0f766e&border_color=d1d5db&rank_icon=github" alt="Dhruv's GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruvv1101&layout=compact&theme=transparent&title_color=111111&text_color=374151&border_color=d1d5db" alt="Top languages" />
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=dhruvv1101&show_icons=true&include_all_commits=true&rank_icon=github&theme=transparent&title_color=111111&text_color=374151&icon_color=0f766e&border_color=d1d5db" alt="Dhruv's GitHub stats" />
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=dhruvv1101&layout=compact&langs_count=8&theme=transparent&title_color=111111&text_color=374151&border_color=d1d5db" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=dhruvv1101&theme=default&border_radius=6&ring=0f766e&fire=ea580c&currStreakLabel=111111&sideLabels=374151&dates=6b7280&border=d1d5db" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=dhruvv1101&theme=transparent&hide_border=false&border_radius=6&ring=0f766e&fire=ea580c&currStreakLabel=111111&sideLabels=374151&dates=6b7280&border=d1d5db" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dhruvv1101&theme=flat&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub trophies" />
 </p>
 
 ## Competitive Programming
