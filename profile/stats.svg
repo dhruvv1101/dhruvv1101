@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Dhruv Verma&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 1, Total Commits  : 436, Total PRs: 34, Total Issues: 3, Contributed to (last year): 5</desc>
+        <desc id="descId">Total Stars Earned: 1, Total Commits  : 436, Total PRs: 34, Total Issues: 4, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 209.98296107474152;
+        stroke-dashoffset: 209.45595723793383;
       }
     }
   
@@ -214,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >3</text>
+      >4</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >5</text>
+      >6</text>
     </g>
   </g>
     </svg>
