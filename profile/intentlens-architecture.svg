@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" width="100%" height="540" font-family="'JetBrains Mono', Consolas, 'SFMono-Regular', monospace">
+  <style>
+    .flow { stroke-dasharray: 6 6; animation: dash 1.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -12; } }
+    .pulse { animation: pulse 2.5s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: .6; } 50% { opacity: 1; } }
+    .subhead { font-size: 11px; fill: #64748b; letter-spacing: 1.5px; font-weight: 600; text-transform: uppercase; }
+    .title { font-size: 15px; fill: #f8fafc; font-weight: 700; letter-spacing: 0.5px; }
+    .metric-val { font-size: 16px; font-weight: 800; fill: #38bdf8; }
+    .metric-lbl { font-size: 9.5px; fill: #94a3b8; letter-spacing: 0.8px; text-transform: uppercase; }
+    .box-title { font-size: 13px; font-weight: 700; }
+    .item-txt { font-size: 11px; fill: #cbd5e1; }
+  </style>
+
+  <defs>
+    <!-- Arrow Markers -->
+    <marker id="arr-sky" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arr-violet" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#a78bfa"/>
+    </marker>
+    <marker id="arr-emerald" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#34d399"/>
+    </marker>
+    <marker id="arr-amber" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#f59e0b"/>
+    </marker>
+
+    <!-- Linear Gradients -->
+    <linearGradient id="bgBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="880" height="540" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+
+  <!-- Top Banner / Header -->
+  <g transform="translate(30, 26)">
+    <rect x="0" y="0" width="12" height="12" rx="3" fill="#818cf8" />
+    <text x="20" y="11" class="subhead">IntentLens // Context-Aware Tab-Intent Tracker &amp; Habit Analytics</text>
+    <text x="0" y="36" class="title">MANIFEST V3 BROWSER EXTENSION · FLASK IPC · N8N WEBHOOKS · SQLITE</text>
+  </g>
+
+  <!-- Key Metrics Strip -->
+  <g transform="translate(530, 24)">
+    <!-- Metric 1 -->
+    <rect x="0" y="0" width="102" height="42" rx="6" fill="#111c2e" stroke="#1e2d42" stroke-width="1"/>
+    <text x="10" y="18" class="metric-val">2 Modes</text>
+    <text x="10" y="32" class="metric-lbl">Normal / Private</text>
+
+    <!-- Metric 2 -->
+    <rect x="110" y="0" width="106" height="42" rx="6" fill="#111c2e" stroke="#1e2d42" stroke-width="1"/>
+    <text x="10" y="18" class="metric-val" fill="#a78bfa">&lt;15 ms</text>
+    <text x="10" y="32" class="metric-lbl">Flask IPC Route</text>
+
+    <!-- Metric 3 -->
+    <rect x="224" y="0" width="96" height="42" rx="6" fill="#111c2e" stroke="#1e2d42" stroke-width="1"/>
+    <text x="10" y="18" class="metric-val" fill="#34d399">Automated</text>
+    <text x="10" y="32" class="metric-lbl">n8n Alerts</text>
+  </g>
+
+  <!-- SECTION 1: CHROME EXTENSION (MANIFEST V3) -->
+  <g transform="translate(30, 95)">
+    <rect width="250" height="340" rx="10" fill="url(#bgBox)" stroke="#1e3a5f" stroke-width="1.2"/>
+    <rect x="0" y="0" width="250" height="34" rx="10" fill="#132337" />
+    <rect x="0" y="24" width="250" height="10" fill="#132337" />
+    <text x="16" y="22" class="box-title" fill="#38bdf8">01 / CHROME RUNTIME (MV3)</text>
+
+    <!-- Item 1.1 -->
+    <g transform="translate(14, 48)">
+      <rect width="222" height="52" rx="6" fill="#09111c" stroke="#1e293b" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">chrome.tabs.onUpdated</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Parses ?q= &amp; ?search_query=</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 102 L 125 116" stroke="#38bdf8" stroke-width="1.5" class="flow" marker-end="url(#arr-sky)"/>
+
+    <!-- Item 1.2 -->
+    <g transform="translate(14, 118)">
+      <rect width="222" height="58" rx="6" fill="#09111c" stroke="#1e293b" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Final Destination Tracking</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Filters internal chrome:// &amp; edge://</text>
+      <text x="12" y="50" font-size="9" fill="#38bdf8">Stores tabId → {query, lastUrl}</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 178 L 125 192" stroke="#38bdf8" stroke-width="1.5" class="flow" marker-end="url(#arr-sky)"/>
+
+    <!-- Item 1.3 -->
+    <g transform="translate(14, 194)">
+      <rect width="222" height="60" rx="6" fill="#09111c" stroke="#1e293b" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">chrome.tabs.onRemoved</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Intercepts tab closure instantly</text>
+      <text x="12" y="52" font-size="9" fill="#34d399">Dispatches event to /tab_closed</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 256 L 125 270" stroke="#38bdf8" stroke-width="1.5" class="flow" marker-end="url(#arr-sky)"/>
+
+    <!-- Item 1.4 -->
+    <g transform="translate(14, 272)">
+      <rect width="222" height="52" rx="6" fill="#09111c" stroke="#1e293b" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Asynchronous IPC Egress</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">fetch() to localhost:5000 server</text>
+    </g>
+  </g>
+
+  <!-- CONNECTOR 1 -> 2 -->
+  <path d="M 280 265 L 315 265" stroke="#38bdf8" stroke-width="2" class="flow" marker-end="url(#arr-sky)"/>
+
+  <!-- SECTION 2: FLASK BACKEND & SCORING (MIDDLE) -->
+  <g transform="translate(315, 95)">
+    <rect width="250" height="340" rx="10" fill="url(#bgBox)" stroke="#6366f1" stroke-width="1.2"/>
+    <rect x="0" y="0" width="250" height="34" rx="10" fill="#1e1b4b" />
+    <rect x="0" y="24" width="250" height="10" fill="#1e1b4b" />
+    <text x="16" y="22" class="box-title" fill="#a5b4fc">02 / FLASK CORE &amp; SCORING</text>
+
+    <!-- Item 2.1 -->
+    <g transform="translate(14, 48)">
+      <rect width="222" height="52" rx="6" fill="#0d0d26" stroke="#312e81" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Dual-Mode Route Controller</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Normal (Interactive) vs Private Mode</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 102 L 125 116" stroke="#818cf8" stroke-width="1.5" class="flow" marker-end="url(#arr-violet)"/>
+
+    <!-- Item 2.2 -->
+    <g transform="translate(14, 118)">
+      <rect width="222" height="58" rx="6" fill="#0d0d26" stroke="#312e81" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Tkinter Intent Popups</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Search prompt &amp; Closure reflection</text>
+      <text x="12" y="50" font-size="9" fill="#a5b4fc">Distraction self-report tracking</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 178 L 125 192" stroke="#818cf8" stroke-width="1.5" class="flow" marker-end="url(#arr-violet)"/>
+
+    <!-- Item 2.3 -->
+    <g transform="translate(14, 194)">
+      <rect width="222" height="60" rx="6" fill="#0d0d26" stroke="#312e81" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Productivity Scoring Engine</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">+3 (Wikipedia/GitHub/SO)</text>
+      <text x="12" y="52" font-size="9" fill="#38bdf8">-3 (YouTube/Insta) · -5 Distraction</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 256 L 125 270" stroke="#818cf8" stroke-width="1.5" class="flow" marker-end="url(#arr-violet)"/>
+
+    <!-- Item 2.4 -->
+    <g transform="translate(14, 272)">
+      <rect width="222" height="52" rx="6" fill="#0d0d26" stroke="#312e81" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">SQLite Engine (database.py)</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">intentlens.db structured schema</text>
+    </g>
+  </g>
+
+  <!-- CONNECTOR 2 -> 3 -->
+  <path d="M 565 265 L 600 265" stroke="#a78bfa" stroke-width="2" class="flow" marker-end="url(#arr-violet)"/>
+
+  <!-- SECTION 3: AUTOMATION & DASHBOARD (RIGHT) -->
+  <g transform="translate(600, 95)">
+    <rect width="250" height="340" rx="10" fill="url(#bgBox)" stroke="#059669" stroke-width="1.2"/>
+    <rect x="0" y="0" width="250" height="34" rx="10" fill="#064e3b" />
+    <rect x="0" y="24" width="250" height="10" fill="#064e3b" />
+    <text x="16" y="22" class="box-title" fill="#34d399">03 / N8N &amp; ANALYTICS</text>
+
+    <!-- Item 3.1 -->
+    <g transform="translate(14, 48)">
+      <rect width="222" height="52" rx="6" fill="#061c14" stroke="#065f46" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Threshold Trigger (Score &lt; 0)</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Detects focus deviation immediately</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 102 L 125 116" stroke="#34d399" stroke-width="1.5" class="flow" marker-end="url(#arr-emerald)"/>
+
+    <!-- Item 3.2 -->
+    <g transform="translate(14, 118)">
+      <rect width="222" height="58" rx="6" fill="#061c14" stroke="#065f46" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">n8n Automation Webhook</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">POST to :5678/webhook/alert</text>
+      <text x="12" y="50" font-size="9" fill="#34d399">Sends distraction nudge &amp; log</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 178 L 125 192" stroke="#34d399" stroke-width="1.5" class="flow" marker-end="url(#arr-emerald)"/>
+
+    <!-- Item 3.3 -->
+    <g transform="translate(14, 194)">
+      <rect width="222" height="60" rx="6" fill="#061c14" stroke="#065f46" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Streamlit Habit Dashboard</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">dashboard.py interactive charts</text>
+      <text x="12" y="52" font-size="9" fill="#a78bfa">Top visited domains &amp; score trends</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 256 L 125 270" stroke="#34d399" stroke-width="1.5" class="flow" marker-end="url(#arr-emerald)"/>
+
+    <!-- Item 3.4 -->
+    <g transform="translate(14, 272)">
+      <rect width="222" height="52" rx="6" fill="#061c14" stroke="#065f46" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Focus Habit Optimization</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Quantifies browsing session value</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM ARCHITECTURAL DECISION STRIP -->
+  <g transform="translate(30, 455)">
+    <rect width="820" height="58" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <!-- Pill 1 -->
+    <rect x="16" y="14" width="250" height="30" rx="5" fill="#091b26" stroke="#1e3a5f" stroke-width="1"/>
+    <text x="26" y="33" font-size="10.5" fill="#38bdf8" font-weight="600">DEC-01: Lifecycle Event Interception</text>
+
+    <!-- Pill 2 -->
+    <rect x="280" y="14" width="260" height="30" rx="5" fill="#191538" stroke="#3730a3" stroke-width="1"/>
+    <text x="290" y="33" font-size="10.5" fill="#a5b4fc" font-weight="600">DEC-02: Algorithmic Productivity Score</text>
+
+    <!-- Pill 3 -->
+    <rect x="554" y="14" width="250" height="30" rx="5" fill="#0a2318" stroke="#065f46" stroke-width="1"/>
+    <text x="564" y="33" font-size="10.5" fill="#34d399" font-weight="600">DEC-03: Asynchronous n8n Webhook Nudges</text>
+  </g>
+</svg>

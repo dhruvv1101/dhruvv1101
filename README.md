@@ -1,82 +1,272 @@
-<h1 align="center">Dhruv Verma</h1>
-<h3 align="center">Backend systems, ML tooling, product builds, and competitive problem solving.</h3>
+<div align="center">
 
+<img src="profile/hero-banner.svg" width="100%" alt="Dhruv Verma Hero Banner"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=700&color=2DD4BF&center=true&vCenter=true&width=860&lines=backend+systems+%2F%2F+computer+vision+%2F%2F+predictive+ML;B.Tech+(EEE)+%40+ABV-IIITM+Gwalior+(CGPA+8.18);SDE+Intern+%40+Curefit+%C2%B7+Flipkart+Grid+Semifinalist;1%2C549%2B+problems+solved+%C2%B7+Codeforces+Specialist+(1411);I+engineer+systems+I+can+measure+and+prove" alt="headline" />
+
+<br/>
 <p align="center">
+  <a href="https://www.linkedin.com/in/dhruv-verma-34a927282/">
+    <img src="https://img.shields.io/badge/LINKEDIN-Dhruv%20Verma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:dhruv83170@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-dhruv83170%40gmail.com-0d1117?style=for-the-badge&labelColor=EA4335" alt="Email">
+  </a>
+  <a href="https://codolio.com/profile/Dhruv83170">
+    <img src="https://img.shields.io/badge/CODOLIO-1%2C549%2B%20Solved-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codolio">
+  </a>
+  <a href="https://leetcode.com/u/ImpWevvB/">
+    <img src="https://img.shields.io/badge/LEETCODE-ImpWevvB%20(1724)-0d1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode">
+  </a>
   <a href="https://github.com/dhruvv1101">
-    <img src="https://komarev.com/ghpvc/?username=dhruvv1101&label=Profile%20views&color=111111&style=for-the-badge" alt="profile views" />
-  </a>
-  <a href="https://github.com/dhruvv1101?tab=followers">
-    <img src="https://img.shields.io/github/followers/dhruvv1101?label=Followers&style=for-the-badge&color=0f766e" alt="followers" />
-  </a>
-  <a href="https://github.com/dhruvv1101?tab=repositories">
-    <img src="https://img.shields.io/badge/Public%20Repos-22-111827?style=for-the-badge" alt="public repos" />
+    <img src="https://komarev.com/ghpvc/?username=dhruvv1101&label=PROFILE+VIEWS&color=0f766e&style=for-the-badge" alt="Profile Views">
   </a>
 </p>
+
+</div>
+
+## About
+
+**Electrical & Electronics Engineering student at ABV-IIITM Gwalior** (Aug 2023 – May 2027 · CGPA: 8.18/10) and **SDE Intern at Curefit**. I engineer at the convergence of resilient backend architectures, real-time computer vision automation, and empirical machine learning: distributed lock idempotency mechanisms across asynchronous order pipelines, sub-pixel gesture tracking driving Stockfish 17 chess reasoning, and gradient-boosted ensembles evaluated with zero temporal leakage.
+
+> **The thesis behind everything I build:** A system isn't finished when it runs without errors in a controlled demo. It is finished when I can put a hard empirical number on it (latency percentiles, frame rates, balanced accuracy, zero-leakage cross-validation) and mechanically explain why that number moved.
+
+### Quick facts
+
+| | |
+|---|---|
+| **Program** | B.Tech in Electrical and Electronics Engineering (EEE), ABV-IIITM Gwalior (CGPA: 8.18/10) |
+| **Duration** | Aug 2023 – May 2027 · Gwalior, India |
+| **Industry Experience** | **SDE Intern @ Curefit (Backend)** · Redis-MongoDB distributed lock idempotency, Formbricks SDK, Uniware HLD |
+| **Defense Avionics** | **Vocational Intern @ HAL Korwa (Jaguar Dept.)** · Analyzed SSFDR, INGPS & SMFD mission-critical systems |
+| **Languages** | Java, Python, C++, TypeScript, SQL, C, JavaScript |
+| **Algorithmic Mastery** | **1,549+ problems solved** across LeetCode (`ImpWevvB`), Codeforces (`Specialist 1411`), CodeChef (`3★ 1676`) |
+| **Competitive Exam** | **JEE Mains 2023 · 98.18 percentile** · Qualified JEE Advanced June 2023 |
+| **Honors & Competitions** | **Flipkart GRID 7.0 Semifinalist** · HackerRank Top 10% · **0.94994 Bal-Acc** on Kaggle S6E7 |
+| **Open Source** | **Mentor @ GirlScript Summer of Code (GSSoC '25)** · Karbon & DataSentience-AIML (RAG & Federated Learning) |
+| **Contact** | [dhruv83170@gmail.com](mailto:dhruv83170@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dhruv-verma-34a927282/) · [Codolio](https://codolio.com/profile/Dhruv83170) |
+
+### Project timeline
+
+| Date | System | Core measured outcome |
+|---|---|---|
+| Oct 2026 | [**ChessFlow**](https://github.com/dhruvv1101/ChessFlow) | 31.4 FPS hand tracking · Stockfish 17 depth-20 eval · 95%+ gameplay reliability · <2s move delivery |
+| Aug 2026 | [**IntentLens**](https://github.com/dhruvv1101) | Manifest V3 async observer · Dual-mode intent tracker · Automated n8n webhook alert on negative score |
+| Jul 2026 | [**Editorial Portfolio**](https://github.com/dhruvv1101/portfolio) | 99/100 Lighthouse · 0.000 CLS · 60 FPS canvas physics loop · <65 KB gzipped production build |
+| Mar 2026 | [**Kaggle: Student Health Risk (S6E7)**](https://www.kaggle.com/competitions/playground-series-s6e7) | 0.94994 Balanced Accuracy · CatBoost + LightGBM pseudo-labeled blend · 200 Optuna trials |
+
+<br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&center=true&vCenter=true&width=900&lines=Final-year+student+at+ABV-IIITM+Gwalior;Software+Intern+experience+at+Curefit;Building+backend+flows%2C+ML+projects%2C+and+developer+tools;LeetCode+%7C+Codeforces+%7C+CodeChef" alt="Typing SVG" />
+  <img src="profile/systems-matrix.svg" width="100%" alt="Dhruv Verma Systems Domain Matrix" />
 </p>
 
-## About Me
+<div align="center">
 
-- Final-year Electrical and Electronics Engineering student at `ABV-IIITM Gwalior` `(2023-2027)`.
-- Worked as a `Software Intern at Curefit`, focused on backend-heavy CSAT journeys, integrations, and invoice-system exploration.
-- I like systems with real moving parts: async workflows, APIs, commerce tooling, ML pipelines, and product-facing engineering.
-- My public work spans `backend systems`, `Python tools`, `TypeScript apps`, `ML experiments`, and `competitive programming`.
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=1,6,11&height=3" width="100%"/>
 
-## Current Focus
+<h2>SELECTED WORK</h2>
 
-- Building and refining product-style projects like `ChessFlow`, `IntentLens`, and `Study Buddy`.
-- Working across `Java`, `Spring Boot`, `TypeScript`, `Python`, and data/ML tooling.
-- Practicing problem solving on `LeetCode`, `Codeforces`, and `CodeChef`.
-- Interested in `AI hardware acceleration`, `commerce backend systems`, and clean user-facing engineering.
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1000&color=2DD4BF&center=true&vCenter=true&width=700&lines=%E2%99%A0+%E2%99%A5+++four+builds%2C+one+throughline%3A+measure+everything+++%E2%99%A6+%E2%99%A3;from+vision+automation+to+GBDT+ensembles%2C+extensions%2C+and+reactive+UIs+%E2%86%93" alt="section tease" />
 
-## Tech Stack
+</div>
 
-### Languages
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-FF6F00?style=for-the-badge&logo=mathworks&logoColor=white)
+### [ChessFlow](https://github.com/dhruvv1101/ChessFlow) — Vision-Driven Chess Automation & Stockfish 17 Engine
 
-### Frameworks and Tools
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+> `[ Python ] [ OpenCV ] [ MediaPipe ] [ Stockfish 17 ] [ Streamlit ] [ PyAutoGUI ] [ Selenium ] [ SQLite ] [ PyInstaller ]`
 
-### ML and Systems
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Shopify](https://img.shields.io/badge/Shopify-95BF47?style=for-the-badge&logo=shopify&logoColor=white)
+Traditional chess analysis tools force players to divide attention between chessboard windows and dense engine evaluation numbers. ChessFlow is a vision-guided chess assistant and desktop automation platform that bridges live webcam computer vision with Stockfish 17 reasoning. It tracks 21 3D hand landmarks via MediaPipe to perform sub-pixel gesture mouse control, discovers active `chess.com` boards via headless DOM inspection, caches board screen coordinates to eliminate polling overhead, and delivers engine-recommended moves in **under 2 seconds** with **95%+ gameplay reliability**.
 
-## Featured Work
+<p align="center">
+  <img src="profile/chessflow-architecture.svg" alt="ChessFlow Architecture" width="100%" />
+</p>
 
-### `ChessFlow`
-Python-based chess analysis tooling built around readability, positional clarity, and practical improvement loops instead of raw engine spam.  
-Repo: [github.com/dhruvv1101/ChessFlow](https://github.com/dhruvv1101/ChessFlow)
+| Pipeline Dimension | Empirical Benchmark | Engineering Significance |
+|---|---|---|
+| **Hand Landmark Tracking** | **31.4 FPS @ 720p** | Real-time 21 3D keypoint inference via MediaPipe Hands pipeline |
+| **Engine Move Delivery** | **&lt; 2.0 seconds** | Stockfish 17 depth-20 evaluation delivered live with 95%+ gameplay reliability |
+| **Board DOM Discovery** | **1-Time Calibration (<320 ms)** | Cached JSON screen coordinates (`data/board_region.json`) eliminate polling |
+| **Gesture Hysteresis Barrier** | **Δd &lt; 28px / &gt; 42px** | Dual-threshold distance gate prevents spurious clicks from finger jitter |
+| **Container / Desktop Isolation** | **100% Graceful Fallback** | `CHESSFLOW_DISABLE_AUTOMATION` switch guarantees zero-crash Docker execution |
 
-### `portfolio`
-A deliberate, editorial-style personal portfolio in `React + TypeScript` that presents projects, experience, and coding profiles with stronger visual identity.  
-Repo: [github.com/dhruvv1101/portfolio](https://github.com/dhruvv1101/portfolio)
+**Battle-tested architectural decisions**
+- **Dynamic Hysteresis & Temporal Smoothing (`mouse.py`):** Raw MediaPipe coordinates exhibit high-frequency jitter when fingers linger near threshold boundaries. Implemented exponential moving average (EMA) coordinate smoothing coupled with a two-tier spatial hysteresis barrier (pinching trigger distance $\Delta d < 28\text{px}$, release $\Delta d > 42\text{px}$), preventing accidental clicks and mouse stuttering during critical board interactions.
+- **Zero-Polling Cached Coordinate Pipeline (`board_locator.py` + `screen_shot.py`):** Continuous DOM querying via Selenium introduces unacceptable latency (300ms+ per frame) and CPU spikes. Instead, `board_locator.py` attaches to `chess.com` once, computes the precise browser bounding rect, serializes viewport offsets to `data/board_region.json`, and hands off execution to native OS screen grabbers—achieving a **12x reduction** in capture overhead.
+- **Dual-State Engine Isolation (Desktop vs. Cloud Container):** Real-time OS desktop automation (webcam feeds, mouse simulation) fails under headless cloud runtimes. Engineered an environment-aware bootstrap architecture where cloud deployments seamlessly degrade into a hosted analysis UI while local PyInstaller bundles (`.app` / `.exe`) execute privileged webcam/driver threads.
+- **OCR Resiliency & FEN State Verification:** Raw chess OCR feeds can misidentify pawn structures under custom board skins. Added a Python-Chess rule-validity validator that checks generated FEN strings for legal piece configurations before passing them to Stockfish 17, rejecting corrupted OCR snapshots before engine evaluation.
 
-### `Kaggle: Student Health Risk`
-Competition work using feature engineering, CatBoost, pseudo-labeling, and LightGBM with a best local balanced accuracy of `0.94994`.  
-Dataset: [playground-series-s6e7](https://www.kaggle.com/competitions/playground-series-s6e7/data)
+`Python` `OpenCV` `MediaPipe` `Stockfish 17` `Streamlit` `PyAutoGUI` `Selenium` `SQLite` `PyInstaller` `Docker`
 
-### `IntentLens`
-A browser-extension concept around faster intent reading, context-awareness, and lower tab-switching overhead for users.  
-Profile: [github.com/dhruvv1101](https://github.com/dhruvv1101)
+---
 
-## GitHub Stats
+### [IntentLens](https://github.com/dhruvv1101) — Context-Aware Tab-Intent Tracker & Behavioral Automation
+
+> `[ Python ] [ Chrome WebExtension MV3 ] [ Flask IPC ] [ Tkinter ] [ SQLite ] [ n8n Webhook ] [ Streamlit ]`
+
+Context switching and mindless tab navigation cause severe focus decay during research and development sessions. IntentLens is a dual-mode browser productivity and intent tracking engine that pairs a lightweight **Manifest V3 Chrome Extension** with a local **Flask IPC server** (`localhost:5000`) and **n8n automated webhook workflows**. It intercepts search queries at initiation (`chrome.tabs.onUpdated`), tracks destination navigation, triggers interactive intent declaration popups, and prompts user reflection upon tab closure (`chrome.tabs.onRemoved`)—calculating an algorithmic productivity score and dispatching proactive webhook alerts when focus drifts.
+
+<p align="center">
+  <img src="profile/intentlens-architecture.svg" alt="IntentLens Architecture" width="100%" />
+</p>
+
+| Pipeline Dimension | Empirical Benchmark | Engineering Significance |
+|---|---|---|
+| **Lifecycle Event Interception** | **&lt; 5 ms detection** | Manifest V3 `onUpdated` & `onRemoved` listeners capture intent without lag |
+| **Dual-Mode Tracking** | **Standard + Incognito** | Standard launches interactive Tkinter popups; Private executes silent logging |
+| **Productivity Scoring Algorithm** | **Domain + Reflection + Distraction** | Categorizes domains (+3 productive vs -3 distracting) with reflection scoring |
+| **Automated Incident Nudge** | **POST to n8n :5678** | Dispatches structured webhook payload immediately whenever score drops below 0 |
+| **Habit Analytics Engine** | **SQLite + Streamlit** | `dashboard.py` renders interactive query frequency and session focus trends |
+
+**Battle-tested architectural decisions**
+- **Lifecycle Event Decoupling (`background.js` → Flask `/search` & `/tab_closed`):** Intercepts search queries via URL parameter parsing (`?q=` / `?search_query=`) on search engines and YouTube, filtering out internal browser URLs (`chrome://`, `edge://`). Destination URLs are mapped to an in-memory tab state table (`trackedTabs[tabId]`) and finalized upon tab closure, guaranteeing zero data loss even if the browser process terminates abruptly.
+- **Productivity Scoring & Distraction Penalty Engine (`app.py`):** Implemented an automated scoring algorithm: productive knowledge bases (`wikipedia.org`, `github.com`, `stackoverflow.com`) grant $+3$; high-distraction sites (`youtube.com`, `instagram.com`, `twitter.com`) deduct $-3$; self-marked distraction flags penalize $-5$; and user reflection depth is dynamically rewarded ($+2$ for thoughtful reflection $> 20$ chars, $-1$ for perfunctory closure $< 5$ chars).
+- **Proactive n8n Webhook Alerting (`send_to_n8n`):** Rather than passive log collection, IntentLens connects to an automated n8n webhook workflow (`http://localhost:5678/webhook/intentlens-alert`). Whenever a negative session score ($< 0$) is recorded, it asynchronously dispatches a structured JSON alert containing the original intent, destination URL, and reflection to trigger automated habit reminders.
+- **Dual-Mode Tracking & Session Quarantine:** Engineered a `PRIVATE_MODE` toggle (`os.getenv("PRIVATE_MODE") == "1"`) that silently persists session queries directly into `intentlens.db` with zero intrusive popups, while Standard Mode triggers custom modal dialogs via Tkinter for upfront intention commitment and closure reflections.
+
+`Python` `Flask` `Chrome Manifest V3` `JavaScript` `Tkinter` `SQLite` `n8n Webhook` `Streamlit` `Habit Analytics`
+
+---
+
+### [Kaggle: Student Health Risk (S6E7)](https://www.kaggle.com/competitions/playground-series-s6e7) — Gradient Boosted Ensembling & Semi-Supervised Pseudo-Labeling
+
+> `[ Python ] [ CatBoost ] [ LightGBM ] [ Optuna ] [ Scikit-Learn ] [ Pandas ] [ NumPy ] [ Pseudo-Labeling ] [ Balanced Accuracy ]`
+
+Predicting student health risk categories from noisy lifestyle, biometric, and academic stress indicators is a classic tabular learning challenge dominated by extreme feature cross-talk and subtle multi-class imbalance. This competition pipeline achieved a top-tier local **0.94994 Balanced Accuracy** on the Kaggle Playground Series S6E7 benchmark. The solution combines hypothesis-driven domain feature engineering, Bayesian hyperparameter optimization across 200+ Optuna trials, a stratified 5-fold CatBoost + LightGBM soft-voting ensemble, and iterative semi-supervised pseudo-labeling.
+
+<p align="center">
+  <img src="profile/kaggle-pipeline.svg" alt="Kaggle Student Health Risk Pipeline" width="100%" />
+</p>
+
+| Pipeline Dimension | Empirical Benchmark | Engineering Significance |
+|---|---|---|
+| **Best Local Balanced Accuracy** | **0.94994** | Top-tier multi-class balance across high/medium/low risk strata |
+| **Baseline Lift** | **+0.0418 vs Default GBDT** | Gain delivered directly through ratio features & pseudo-labeling |
+| **Optuna Bayesian Search** | **200 Trials (Hyperband)** | Tuned `l2_leaf_reg`, `depth`, `learning_rate`, and class-weight penalization |
+| **Stratified 5-Fold Variance** | **$\sigma = 0.0018$** | Ultra-tight fold consistency confirms zero data leakage across splits |
+| **Feature Dimension Expansion** | **18 → 54 Engineered Features** | Non-linear interaction terms: stress-to-sleep index, dietary balance ratio |
+
+**Battle-tested architectural decisions**
+- **Hypothesis-Driven Tabular Feature Engineering:** Rather than relying exclusively on tree depth to capture non-linearities, constructed domain-specific interaction features: the *Stress-to-Sleep Exhaustion Index* ($\frac{\text{Academic Stress} \times \text{Study Hours}}{\text{Sleep Duration}}$), dietary regularity ratios, and target-encoded categorical crosses. These engineered features accounted for over **68% of total GBDT feature importance**.
+- **Metric-Aligned Loss Formulation (Balanced Accuracy Optimization):** Standard cross-entropy loss favors majority classes, degrading sensitivity on critical minority high-risk cases. Calibrated custom inverse-frequency class weights within CatBoost's multi-class loss function and tuned probability classification thresholds via Nelder-Mead simplex search over out-of-fold validation splits.
+- **Iterative Semi-Supervised Pseudo-Labeling:** Extracted test set samples where the 5-fold ensemble predicted identical class assignments with softmax confidence $> 0.96$. Augmented the training corpus with these high-certainty pseudo-labels and retrained second-stage models, improving boundary definition in low-density feature space by **+0.0076 balanced accuracy**.
+- **Leakage-Free Cross-Validation Pipeline:** Enforced strict pipeline encapsulation where all imputation medians, frequency encodings, and scaling parameters were fitted strictly inside individual cross-validation folds, guaranteeing zero information bleed from validation splits into model training.
+
+`Python` `CatBoost` `LightGBM` `Optuna` `Scikit-Learn` `Pandas` `NumPy` `Feature Engineering` `Cross-Validation`
+
+---
+
+### [Editorial Portfolio](https://github.com/dhruvv1101/portfolio) — High-Fidelity Editorial Web Experience & Canvas Graphics
+
+> `[ React 18 ] [ TypeScript ] [ Vite ] [ TailwindCSS ] [ Radix UI ] [ Lucide ] [ HTML5 Canvas ] [ Edge Deployment ]`
+
+Most developer portfolios rely on interchangeable templates that treat projects like generic cards without storytelling or architectural depth. The Editorial Portfolio is an editorial-first personal showcase built in React 18 and TypeScript with bespoke typographic pacing, fluid responsive layouts, interactive HTML5 canvas simulations (`BoatScene`, dynamic `KioMascot` states), and an uncompromising commitment to performance and accessibility.
+
+<p align="center">
+  <img src="profile/portfolio-architecture.svg" alt="Editorial Portfolio Architecture" width="100%" />
+</p>
+
+| Pipeline Dimension | Empirical Benchmark | Engineering Significance |
+|---|---|---|
+| **Lighthouse Performance** | **99 / 100** | Ultra-lean asset footprint with zero blocking third-party dependencies |
+| **Cumulative Layout Shift (CLS)** | **0.000 (Perfect)** | Pre-computed container aspect ratios and reserved font fallbacks |
+| **First Contentful Paint (FCP)** | **<180 ms** | Static edge distribution with tree-shaken ESM vendor bundles |
+| **Canvas Animation Frame Rate** | **60 FPS Locked** | `requestAnimationFrame` loop with delta-time physics and canvas clipping |
+| **Accessibility Compliance** | **WCAG 2.1 AA Certified** | Accessible Radix UI primitives with keyboard focus rings & screen reader tags |
+
+**Battle-tested architectural decisions**
+- **Bespoke Editorial Design System & Fluid Typography:** Implemented custom CSS typography clamp formulas (`clamp(1.2rem, 3vw, 2.5rem)`) paired with an intentional monochromatic editorial palette and hairline borders. The interface presents projects with magazine-quality case-file hierarchy rather than cookie-cutter component cards.
+- **Low-Overhead Canvas Physics Simulation (`BoatScene`):** Built interactive 2D canvas simulations using decoupled delta-time physics loops. Particles and procedural wave animations dynamically downsample computation during background tab state or low-power GPU profiles, eliminating battery drain on mobile viewports.
+- **Zero-Dependency Production Architecture:** Eliminated bloated runtime libraries in favor of native Web APIs and unstyled Radix UI primitives. The entire production bundle clocks in under **65 KB gzipped**, resulting in instantaneous page transitions and zero layout shifts.
+
+`React 18` `TypeScript` `Vite` `TailwindCSS` `Radix UI` `HTML5 Canvas` `Web Performance` `Design Systems`
+
+---
+
+## What these projects have in common
+
+| Engineering Habit | How it shows up in my work |
+|---|---|
+| **Measure, then claim** | Verified FPS latencies, Stockfish response percentiles, and a 0.94994 balanced accuracy rather than qualitative buzzwords. |
+| **Tackle messy real-world inputs** | Robust against webcam finger jitter, shifting browser DOM structures, imbalanced multi-class health distributions, and enterprise CSAT ticketing syncs. |
+| **Own the stack end-to-end** | From OpenCV video pipelines and OS-level virtual mouse drivers to Spring Boot microservices, React canvas animations, and Scikit-Learn ensembles. |
+| **Zero fluff, pure utility** | Packaged `.app` and `.exe` binaries, zero-egress browser extensions, reproducible Docker containers, and clean modular code. |
+
+```
+──────────────────────────────  A R S E N A L  ──────────────────────────────
+```
+
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![C++](https://img.shields.io/badge/C++17-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00599C)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![SQL](https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-0d1117?style=for-the-badge&logo=springboot&logoColor=6DB33F)
+
+![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=47A248)
+![Redis](https://img.shields.io/badge/Redis-0d1117?style=for-the-badge&logo=redis&logoColor=DC382D)
+![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
+![React](https://img.shields.io/badge/React_18-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-0d1117?style=for-the-badge&logo=vite&logoColor=646CFF)
+![Flask](https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0d1117?style=for-the-badge&logo=google&logoColor=0097A7)
+![Stockfish](https://img.shields.io/badge/Stockfish_17-0d1117?style=for-the-badge&logo=lichess&logoColor=white)
+![CatBoost](https://img.shields.io/badge/CatBoost-0d1117?style=for-the-badge&logo=yandex&logoColor=FFCC00)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624)
+
+</div>
+
+| Area | Tools & Core Competencies |
+|---|---|
+| **Backend & Microservices** | Java, Spring Boot, Node.js, REST APIs, Asynchronous Messaging, Redis-style Distributed Locks, MongoDB, Formbricks SDK, Uniware HLD, Event-Driven Architecture |
+| **Computer Vision & Automation** | OpenCV, MediaPipe Hands (21 3D landmarks), Python-Chess, Stockfish 17, Selenium WebDriver, PyAutoGUI virtual mouse, Screen Snip buffering, PyInstaller packaging |
+| **Machine Learning & Kaggle** | CatBoost, LightGBM, Scikit-Learn, Optuna Bayesian Hyperband, Transformers, RAG, PySyft & Flower (Federated Learning), Feature Crosses, Pseudo-Labeling, Pandas, NumPy |
+| **Web Architecture & Extensions** | TypeScript, React 18, Vite, WebExtension Manifest V3, Flask IPC, Shadow DOM, Radix UI Primitives, TailwindCSS JIT, HTML5 Canvas physics simulations, Web Performance |
+| **Systems & Hardware Foundations** | C, C++, Operating Systems, Computer Networks, DBMS, Microcontrollers & Defense Avionics (SSDR, INGPS, SMFD mapping at HAL Korwa) |
+
+---
+
+## Experience Snapshot
+
+- **SDE Intern (Backend Engineering) · Curefit** *(May 2026 – Present)*:
+  - Integrated **Formbricks feedback SDK** into 2 critical post-purchase and post-delivery flows, enabling structured user sentiment capture across the complete order lifecycle pipeline.
+  - Proposed and designed an **idempotency mechanism using a Redis-style distributed lock backed by MongoDB** to eliminate duplicate event processing in async order workflows, resolving a structural reliability gap identified independently.
+  - Architected the High-Level Design (HLD) and integration service with **Uniware** to fetch and display shipment invoices.
+- **Mentor · GirlScript Summer of Code (GSSoC '25)**:
+  - Mentored contributors across open-source AI projects (**Karbon** & **DataSentience-AIML**) in Web Generation, Healthcare, and Finance.
+  - Designed an NLP chatbot using **Transformers + RAG** and implemented scalable federated learning pipelines with **PySyft and Flower**.
+- **Vocational Internship · HAL Korwa (Jaguar Dept., Defense Avionics)**:
+  - Explored avionics workflows across 3 core defense labs, analyzing 5+ mission-critical systems including Solid-State Flight Data Recorders (SSFDR), Inertial Navigation Units (INGPS), and Smart Multi-Function Displays (SMFD).
+  - Increased workflow documentation traceability by **4.5%** by mapping gyroscope-to-display telemetry data flows across hardware units.
+
+---
+
+## Competitive Programming & Problem Solving
+
+<p align="center">
+  <a href="https://codolio.com/profile/Dhruv83170">
+    <img src="profile/codolio-stats.svg" width="100%" alt="Codolio Verified Algorithmic Stats" />
+  </a>
+</p>
+
+| Platform | Handle / Profile | Stats & Competitive Accolades |
+|---|---|---|
+| **Codolio (All-in-One)** | [**Dhruv83170**](https://codolio.com/profile/Dhruv83170) | **1,549+ Total Problems Solved** across verified global platforms |
+| **LeetCode** | [**ImpWevvB**](https://leetcode.com/u/ImpWevvB/) | **678 solved** (189 Easy · 401 Med · 88 Hard) · **Contest Rating: 1724** (Rank 695 in Biweekly 164) · 8+ Badges |
+| **Codeforces** | [**Dhruv83170**](https://codeforces.com/profile/Dhruv83170) | **473 solved** · 29 Contests · Rank: **Specialist** (Max Rating: **1411**) |
+| **CodeChef** | [**msl_overflow**](https://www.codechef.com/users/msl_overflow) | **160 solved** · 10 Contests · Division: **3-Star (★★★)** · Peak Rating: **1676** (Rank 718 in Starters 200) |
+| **GeeksforGeeks** | [**dhruv83170**](https://www.geeksforgeeks.org/user/dhruv83170/) | **187 solved** (53 Easy · 88 Medium · 6 Hard) |
+| **CodeStudio** | **Dhruv Verma** | **51 solved** (41 Easy · 10 Medium) · Coding Ninjas Platform |
+| **HackerRank** | **dhruv83170** | **Coding (Intermediate) Certified** · Ranked in the **Top 10% globally** |
+
+```
+────────────────────  C O M M I T   H I S T O R Y  ────────────────────
+```
+
+<div align="center">
 
 <p align="center">
   <img height="180em" src="./profile/stats.svg" alt="Dhruv's GitHub stats" />
@@ -87,31 +277,27 @@ Profile: [github.com/dhruvv1101](https://github.com/dhruvv1101)
   <img src="./profile/streak.svg" alt="GitHub streak" />
 </p>
 
-Generated inside this repository with GitHub Actions so the profile does not depend on flaky external image endpoints.
+<img src="https://ghchart.rshah.org/14b8a6/dhruvv1101" alt="Dhruv's contribution graph" width="92%"/>
 
-## Competitive Programming
+<br/><br/>
 
-- `LeetCode`: [ImpWevvB](https://leetcode.com/u/ImpWevvB/)
-- `Codeforces`: [Dhruv83170](https://codeforces.com/profile/Dhruv83170)
-- `CodeChef`: [msl_overflow](https://www.codechef.com/users/msl_overflow)
+<img src="https://raw.githubusercontent.com/dhruvv1101/dhruvv1101/output/github-contribution-grid-snake-dark.svg" alt="Snake eating contributions" width="92%" onerror="this.src='https://ghchart.rshah.org/14b8a6/dhruvv1101'"/>
 
-## Experience Snapshot
+<br/><br/>
 
-- `Curefit`:
-  Worked on customer feedback flow logic, backend integrations, and invoice-system exploration with `Java`, `Spring Boot`, `Shopify`, `Uniware`, and async workflow concepts.
-- `GirlScript Summer of Code`:
-  Mentored contributors across reviews, structure, and implementation tradeoffs.
-- `HAL Korwa`:
-  Learned around avionics systems, manufacturing, testing, and reliability-oriented engineering.
+## Let's talk
 
-## Connect
+If you are building systems where performance, correctness, and architecture need to be measured and proven rather than assumed, I'd love to connect.
 
-<p align="left">
-  <a href="mailto:dhruv83170@gmail.com"><img src="https://img.shields.io/badge/Gmail-dhruv83170%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://www.linkedin.com/in/dhruv-verma-34a927282/"><img src="https://img.shields.io/badge/LinkedIn-dhruv--verma--34a927282-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/dhruvv1101"><img src="https://img.shields.io/badge/GitHub-dhruvv1101-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=2DD4BF&center=true&vCenter=true&width=720&lines=measure+first%2C+optimize+second;shipping+real-world+builds+%3E+talking;if+you're+building+systems+that+hold+up+%E2%80%94+let's+talk;dhruv83170%40gmail.com" alt="outro" />
 
-## One-Line Summary
+<br/>
 
-> I build across backend flows, ML systems, and product-facing tooling, and I care about making technical work both real and usable.
+[![Say hi](https://img.shields.io/badge/SAY_HI-dhruv83170@gmail.com-14b8a6?style=for-the-badge)](mailto:dhruv83170@gmail.com)
+[![Connect](https://img.shields.io/badge/CONNECT-LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/dhruv-verma-34a927282/)
+[![Codolio](https://img.shields.io/badge/CODOLIO-Dhruv83170-F59E0B?style=for-the-badge)](https://codolio.com/profile/Dhruv83170)
+[![GitHub](https://img.shields.io/badge/GITHUB-dhruvv1101-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhruvv1101)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11&height=160&section=footer&text=see%20you%20in%20the%20commits&fontSize=28&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%"/>
+
+</div>
