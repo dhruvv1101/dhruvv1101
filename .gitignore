@@ -1,0 +1,8 @@
+# Agent skills and lockfiles
+.agents/
+skills-lock.json
+
+# Python cache & scratch
+__pycache__/
+*.py[cod]
+*$py.class

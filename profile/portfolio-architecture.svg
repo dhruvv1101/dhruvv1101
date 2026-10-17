@@ -26,17 +26,17 @@
 
     <!-- Linear Gradients -->
     <linearGradient id="bgBox" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0e1726" />
-      <stop offset="100%" stop-color="#0b1120" />
+      <stop offset="0%" stop-color="#0a101f" />
+      <stop offset="100%" stop-color="#060913" />
     </linearGradient>
   </defs>
 
   <!-- Background Canvas -->
-  <rect width="880" height="540" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+  <rect width="880" height="540" rx="14" fill="#080c14" stroke="#1e293b" stroke-width="1.2"/>
 
   <!-- Top Banner / Header -->
   <g transform="translate(30, 26)">
-    <rect x="0" y="0" width="12" height="12" rx="3" fill="#2dd4bf" />
+    <rect x="0" y="0" width="12" height="12" rx="3" fill="#facc15" />
     <text x="20" y="11" class="subhead">Editorial Portfolio // Architecture &amp; Graphics Pipeline</text>
     <text x="0" y="36" class="title">REACT 18 + TYPESCRIPT · BESPOKE EDITORIAL GRID · CANVAS PHYSICS</text>
   </g>
@@ -45,7 +45,7 @@
   <g transform="translate(530, 24)">
     <!-- Metric 1 -->
     <rect x="0" y="0" width="102" height="42" rx="6" fill="#111c2e" stroke="#1e2d42" stroke-width="1"/>
-    <text x="10" y="18" class="metric-val">99 / 100</text>
+    <text x="10" y="18" class="metric-val" fill="#facc15">99 / 100</text>
     <text x="10" y="32" class="metric-lbl">Lighthouse</text>
 
     <!-- Metric 2 -->
@@ -61,10 +61,10 @@
 
   <!-- SECTION 1: EDITORIAL UI & RADIX (LEFT) -->
   <g transform="translate(30, 95)">
-    <rect width="250" height="340" rx="10" fill="url(#bgBox)" stroke="#0d9488" stroke-width="1.2"/>
-    <rect x="0" y="0" width="250" height="34" rx="10" fill="#0f2f35" />
-    <rect x="0" y="24" width="250" height="10" fill="#0f2f35" />
-    <text x="16" y="22" class="box-title" fill="#2dd4bf">01 / EDITORIAL UI CORE</text>
+    <rect width="250" height="340" rx="10" fill="url(#bgBox)" stroke="#1e3a5f" stroke-width="1.2"/>
+    <rect x="0" y="0" width="250" height="34" rx="10" fill="#0f1d35" />
+    <rect x="0" y="24" width="250" height="10" fill="#0f1d35" />
+    <text x="16" y="22" class="box-title" fill="#38bdf8">01 / EDITORIAL UI CORE</text>
 
     <!-- Item 1.1 -->
     <g transform="translate(14, 48)">
@@ -96,18 +96,18 @@
     </g>
 
     <!-- Arrow down -->
-    <path d="M 125 256 L 125 270" stroke="#2dd4bf" stroke-width="1.5" class="flow" marker-end="url(#arr-teal)"/>
+    <path d="M 125 256 L 125 270" stroke="#38bdf8" stroke-width="1.5" class="flow" marker-end="url(#arr-sky)"/>
 
     <!-- Item 1.4 -->
     <g transform="translate(14, 272)">
-      <rect width="222" height="52" rx="6" fill="#07181c" stroke="#134e4a" stroke-width="1"/>
+      <rect width="222" height="52" rx="6" fill="#09111c" stroke="#1e293b" stroke-width="1"/>
       <text x="12" y="22" class="item-txt" font-weight="600">Lucide + Editorial Glyphs</text>
       <text x="12" y="38" font-size="10" fill="#64748b">Zero icon font overhead</text>
     </g>
   </g>
 
   <!-- CONNECTOR 1 -> 2 -->
-  <path d="M 280 265 L 315 265" stroke="#2dd4bf" stroke-width="2" class="flow" marker-end="url(#arr-teal)"/>
+  <path d="M 280 265 L 315 265" stroke="#38bdf8" stroke-width="2" class="flow" marker-end="url(#arr-sky)"/>
 
   <!-- SECTION 2: CANVAS PHYSICS SIMULATION (MIDDLE) -->
   <g transform="translate(315, 95)">
@@ -208,10 +208,10 @@
 
   <!-- BOTTOM ARCHITECTURAL DECISION STRIP -->
   <g transform="translate(30, 455)">
-    <rect width="820" height="58" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <rect width="820" height="58" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1"/>
     <!-- Pill 1 -->
-    <rect x="16" y="14" width="250" height="30" rx="5" fill="#0a2321" stroke="#134e4a" stroke-width="1"/>
-    <text x="26" y="33" font-size="10.5" fill="#2dd4bf" font-weight="600">DEC-01: Fluid CSS Clamp System</text>
+    <rect x="16" y="14" width="250" height="30" rx="5" fill="#17120a" stroke="#78350f" stroke-width="1"/>
+    <text x="26" y="33" font-size="10.5" fill="#facc15" font-weight="600">DEC-01: Fluid CSS Clamp System</text>
 
     <!-- Pill 2 -->
     <rect x="280" y="14" width="260" height="30" rx="5" fill="#091b26" stroke="#075985" stroke-width="1"/>

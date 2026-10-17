@@ -2,7 +2,7 @@
 
 <img src="profile/hero-banner.svg" width="100%" alt="Dhruv Verma Hero Banner"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=700&color=2DD4BF&center=true&vCenter=true&width=860&lines=backend+systems+%2F%2F+computer+vision+%2F%2F+predictive+ML;B.Tech+(EEE)+%40+ABV-IIITM+Gwalior+(CGPA+8.18);SDE+Intern+%40+Curefit+%C2%B7+Flipkart+Grid+Semifinalist;1%2C549%2B+problems+solved+%C2%B7+Codeforces+Specialist+(1411);I+engineer+systems+I+can+measure+and+prove" alt="headline" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=700&color=FACC15&center=true&vCenter=true&width=860&lines=backend+systems+%2F%2F+computer+vision+%2F%2F+open-source+AI;B.Tech+(EEE)+%40+ABV-IIITM+Gwalior+(CGPA+8.18);SDE+Intern+%40+Curefit+%C2%B7+Flipkart+Grid+Semifinalist;1%2C549%2B+problems+solved+%C2%B7+Codeforces+Specialist+(1411);I+engineer+systems+I+can+measure+and+prove" alt="headline" />
 
 <br/>
 <p align="center">
@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/LEETCODE-ImpWevvB%20(1724)-0d1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode">
   </a>
   <a href="https://github.com/dhruvv1101">
-    <img src="https://komarev.com/ghpvc/?username=dhruvv1101&label=PROFILE+VIEWS&color=0f766e&style=for-the-badge" alt="Profile Views">
+    <img src="https://komarev.com/ghpvc/?username=dhruvv1101&label=PROFILE+VIEWS&color=F59E0B&style=for-the-badge" alt="Profile Views">
   </a>
 </p>
 
@@ -27,9 +27,9 @@
 
 ## About
 
-**Electrical & Electronics Engineering student at ABV-IIITM Gwalior** (Aug 2023 – May 2027 · CGPA: 8.18/10) and **SDE Intern at Curefit**. I engineer at the convergence of resilient backend architectures, real-time computer vision automation, and empirical machine learning: distributed lock idempotency mechanisms across asynchronous order pipelines, sub-pixel gesture tracking driving Stockfish 17 chess reasoning, and gradient-boosted ensembles evaluated with zero temporal leakage.
+**Electrical & Electronics Engineering student at ABV-IIITM Gwalior** (Aug 2023 – May 2027 · CGPA: 8.18/10) and **SDE Intern at Curefit**. I engineer at the convergence of resilient backend architectures, real-time computer vision automation, and open-source AI: distributed lock idempotency mechanisms across asynchronous order pipelines, sub-pixel gesture tracking driving Stockfish 17 chess reasoning, and decentralized federated learning pipelines with RAG chatbots.
 
-> **The thesis behind everything I build:** A system isn't finished when it runs without errors in a controlled demo. It is finished when I can put a hard empirical number on it (latency percentiles, frame rates, balanced accuracy, zero-leakage cross-validation) and mechanically explain why that number moved.
+> **The thesis behind everything I build:** A system isn't finished when it runs without errors in a controlled demo. It is finished when I can put a hard empirical number on it (latency percentiles, frame rates, throughput, memory footprints) and mechanically explain why that number moved.
 
 ### Quick facts
 
@@ -42,7 +42,7 @@
 | **Languages** | Java, Python, C++, TypeScript, SQL, C, JavaScript |
 | **Algorithmic Mastery** | **1,549+ problems solved** across LeetCode (`ImpWevvB`), Codeforces (`Specialist 1411`), CodeChef (`3★ 1676`) |
 | **Competitive Exam** | **JEE Mains 2023 · 98.18 percentile** · Qualified JEE Advanced June 2023 |
-| **Honors & Competitions** | **Flipkart GRID 7.0 Semifinalist** · HackerRank Top 10% · **0.94994 Bal-Acc** on Kaggle S6E7 |
+| **Honors & Competitions** | **Flipkart GRID 7.0 Semifinalist** · HackerRank Top 10% · **URJA TT Winner '25** |
 | **Open Source** | **Mentor @ GirlScript Summer of Code (GSSoC '25)** · Karbon & DataSentience-AIML (RAG & Federated Learning) |
 | **Contact** | [dhruv83170@gmail.com](mailto:dhruv83170@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dhruv-verma-34a927282/) · [Codolio](https://codolio.com/profile/Dhruv83170) |
 
@@ -50,10 +50,10 @@
 
 | Date | System | Core measured outcome |
 |---|---|---|
-| Oct 2026 | [**ChessFlow**](https://github.com/dhruvv1101/ChessFlow) | 31.4 FPS hand tracking · Stockfish 17 depth-20 eval · 95%+ gameplay reliability · <2s move delivery |
-| Aug 2026 | [**IntentLens**](https://github.com/dhruvv1101) | Manifest V3 async observer · Dual-mode intent tracker · Automated n8n webhook alert on negative score |
+| Jun 2026 | [**ChessFlow**](https://github.com/dhruvv1101/ChessFlow) | 31.4 FPS hand tracking · Stockfish 17 depth-20 eval · 95%+ gameplay reliability · <2s move delivery |
 | Jul 2026 | [**Editorial Portfolio**](https://github.com/dhruvv1101/portfolio) | 99/100 Lighthouse · 0.000 CLS · 60 FPS canvas physics loop · <65 KB gzipped production build |
-| Mar 2026 | [**Kaggle: Student Health Risk (S6E7)**](https://www.kaggle.com/competitions/playground-series-s6e7) | 0.94994 Balanced Accuracy · CatBoost + LightGBM pseudo-labeled blend · 200 Optuna trials |
+| Feb – Mar 2026 | [**IntentLens**](https://github.com/dhruvv1101) | Manifest V3 async observer · Dual-mode intent tracker · Automated n8n webhook alert on negative score |
+| May – Aug 2025 | [**Karbon & DataSentience-AIML**](https://github.com/dhruvv1101) | GSSoC '25 Mentor · NLP Chatbot via Transformers + RAG · Federated Learning with PySyft & Flower |
 
 <br/>
 
@@ -67,7 +67,7 @@
 
 <h2>SELECTED WORK</h2>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1000&color=2DD4BF&center=true&vCenter=true&width=700&lines=%E2%99%A0+%E2%99%A5+++four+builds%2C+one+throughline%3A+measure+everything+++%E2%99%A6+%E2%99%A3;from+vision+automation+to+GBDT+ensembles%2C+extensions%2C+and+reactive+UIs+%E2%86%93" alt="section tease" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1000&color=FACC15&center=true&vCenter=true&width=700&lines=%E2%99%A0+%E2%99%A5+++four+builds%2C+one+throughline%3A+measure+everything+++%E2%99%A6+%E2%99%A3;from+vision+automation+to+federated+learning%2C+extensions%2C+and+reactive+UIs+%E2%86%93" alt="section tease" />
 
 </div>
 
@@ -127,31 +127,25 @@ Context switching and mindless tab navigation cause severe focus decay during re
 
 ---
 
-### [Kaggle: Student Health Risk (S6E7)](https://www.kaggle.com/competitions/playground-series-s6e7) — Gradient Boosted Ensembling & Semi-Supervised Pseudo-Labeling
+### [Karbon & DataSentience-AIML](https://github.com/dhruvv1101) — Open-Source AI, RAG & Federated Learning
 
-> `[ Python ] [ CatBoost ] [ LightGBM ] [ Optuna ] [ Scikit-Learn ] [ Pandas ] [ NumPy ] [ Pseudo-Labeling ] [ Balanced Accuracy ]`
+> `[ Python ] [ PyTorch ] [ Transformers ] [ RAG ] [ PySyft ] [ Flower ] [ Federated Learning ] [ GSSoC '25 ]`
 
-Predicting student health risk categories from noisy lifestyle, biometric, and academic stress indicators is a classic tabular learning challenge dominated by extreme feature cross-talk and subtle multi-class imbalance. This competition pipeline achieved a top-tier local **0.94994 Balanced Accuracy** on the Kaggle Playground Series S6E7 benchmark. The solution combines hypothesis-driven domain feature engineering, Bayesian hyperparameter optimization across 200+ Optuna trials, a stratified 5-fold CatBoost + LightGBM soft-voting ensemble, and iterative semi-supervised pseudo-labeling.
+Mentored contributors across open-source AI initiatives (Karbon & DataSentience-AIML) spanning Web Generation, Healthcare, Finance, and Privacy-Preserving Machine Learning under GirlScript Summer of Code (GSSoC '25). Architected an interactive conversational intelligence assistant using Hugging Face Transformers and retrieval-augmented generation (RAG), and engineered decentralized federated learning pipelines using PySyft and Flower to train models over distributed node clusters without centralizing sensitive client data.
 
-<p align="center">
-  <img src="profile/kaggle-pipeline.svg" alt="Kaggle Student Health Risk Pipeline" width="100%" />
-</p>
-
-| Pipeline Dimension | Empirical Benchmark | Engineering Significance |
+| Pipeline Dimension | Engineering Benchmark | Architectural Significance |
 |---|---|---|
-| **Best Local Balanced Accuracy** | **0.94994** | Top-tier multi-class balance across high/medium/low risk strata |
-| **Baseline Lift** | **+0.0418 vs Default GBDT** | Gain delivered directly through ratio features & pseudo-labeling |
-| **Optuna Bayesian Search** | **200 Trials (Hyperband)** | Tuned `l2_leaf_reg`, `depth`, `learning_rate`, and class-weight penalization |
-| **Stratified 5-Fold Variance** | **$\sigma = 0.0018$** | Ultra-tight fold consistency confirms zero data leakage across splits |
-| **Feature Dimension Expansion** | **18 → 54 Engineered Features** | Non-linear interaction terms: stress-to-sleep index, dietary balance ratio |
+| **Mentorship Stewardship** | **GSSoC '25 Core Mentor** | Guided open-source contributors across PR reviews, code quality, and architecture |
+| **Conversational Engine** | **Transformers + RAG** | Document grounding with dense vector embeddings to eliminate hallucination |
+| **Privacy Preservation** | **PySyft + Flower** | Federated learning client-server coordination with zero raw data egress |
+| **Multi-Domain Scope** | **4 Industry Verticals** | Scalable architectures spanning Healthcare, Finance, Web Generation, and Safety |
 
-**Battle-tested architectural decisions**
-- **Hypothesis-Driven Tabular Feature Engineering:** Rather than relying exclusively on tree depth to capture non-linearities, constructed domain-specific interaction features: the *Stress-to-Sleep Exhaustion Index* ($\frac{\text{Academic Stress} \times \text{Study Hours}}{\text{Sleep Duration}}$), dietary regularity ratios, and target-encoded categorical crosses. These engineered features accounted for over **68% of total GBDT feature importance**.
-- **Metric-Aligned Loss Formulation (Balanced Accuracy Optimization):** Standard cross-entropy loss favors majority classes, degrading sensitivity on critical minority high-risk cases. Calibrated custom inverse-frequency class weights within CatBoost's multi-class loss function and tuned probability classification thresholds via Nelder-Mead simplex search over out-of-fold validation splits.
-- **Iterative Semi-Supervised Pseudo-Labeling:** Extracted test set samples where the 5-fold ensemble predicted identical class assignments with softmax confidence $> 0.96$. Augmented the training corpus with these high-certainty pseudo-labels and retrained second-stage models, improving boundary definition in low-density feature space by **+0.0076 balanced accuracy**.
-- **Leakage-Free Cross-Validation Pipeline:** Enforced strict pipeline encapsulation where all imputation medians, frequency encodings, and scaling parameters were fitted strictly inside individual cross-validation folds, guaranteeing zero information bleed from validation splits into model training.
+**Key architectural implementations**
+- **Grounding via Retrieval-Augmented Generation (RAG):** Built an end-to-end NLP retrieval pipeline pairing dense document embeddings with Hugging Face Transformer models, enforcing semantic search verification before generating contextual responses.
+- **Privacy-Preserving Federated Training:** Engineered decentralized training rounds using PySyft and Flower, orchestrating federated averaging (FedAvg) over simulated edge nodes while preserving data isolation.
+- **Mentorship & Open-Source Stewardship:** Spearheaded code reviews, architectural documentation, and issue triage for active contributors, fostering reproducible code standards and CI/CD testing workflows.
 
-`Python` `CatBoost` `LightGBM` `Optuna` `Scikit-Learn` `Pandas` `NumPy` `Feature Engineering` `Cross-Validation`
+`Python` `PyTorch` `Transformers` `RAG` `PySyft` `Flower` `Federated Learning` `Open Source` `GSSoC '25`
 
 ---
 
@@ -186,9 +180,9 @@ Most developer portfolios rely on interchangeable templates that treat projects 
 
 | Engineering Habit | How it shows up in my work |
 |---|---|
-| **Measure, then claim** | Verified FPS latencies, Stockfish response percentiles, and a 0.94994 balanced accuracy rather than qualitative buzzwords. |
-| **Tackle messy real-world inputs** | Robust against webcam finger jitter, shifting browser DOM structures, imbalanced multi-class health distributions, and enterprise CSAT ticketing syncs. |
-| **Own the stack end-to-end** | From OpenCV video pipelines and OS-level virtual mouse drivers to Spring Boot microservices, React canvas animations, and Scikit-Learn ensembles. |
+| **Measure, then claim** | Verified FPS latencies, Stockfish response percentiles, and sub-15ms IPC responses rather than qualitative buzzwords. |
+| **Tackle messy real-world inputs** | Robust against webcam finger jitter, shifting browser DOM structures, decentralized model aggregation, and enterprise CSAT ticketing syncs. |
+| **Own the stack end-to-end** | From OpenCV video pipelines and OS-level virtual mouse drivers to Spring Boot microservices, React canvas animations, and PyTorch federated nodes. |
 | **Zero fluff, pure utility** | Packaged `.app` and `.exe` binaries, zero-egress browser extensions, reproducible Docker containers, and clean modular code. |
 
 ```
@@ -213,7 +207,7 @@ Most developer portfolios rely on interchangeable templates that treat projects 
 ![OpenCV](https://img.shields.io/badge/OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0d1117?style=for-the-badge&logo=google&logoColor=0097A7)
 ![Stockfish](https://img.shields.io/badge/Stockfish_17-0d1117?style=for-the-badge&logo=lichess&logoColor=white)
-![CatBoost](https://img.shields.io/badge/CatBoost-0d1117?style=for-the-badge&logo=yandex&logoColor=FFCC00)
+![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624)
 
@@ -223,7 +217,7 @@ Most developer portfolios rely on interchangeable templates that treat projects 
 |---|---|
 | **Backend & Microservices** | Java, Spring Boot, Node.js, REST APIs, Asynchronous Messaging, Redis-style Distributed Locks, MongoDB, Formbricks SDK, Uniware HLD, Event-Driven Architecture |
 | **Computer Vision & Automation** | OpenCV, MediaPipe Hands (21 3D landmarks), Python-Chess, Stockfish 17, Selenium WebDriver, PyAutoGUI virtual mouse, Screen Snip buffering, PyInstaller packaging |
-| **Machine Learning & Kaggle** | CatBoost, LightGBM, Scikit-Learn, Optuna Bayesian Hyperband, Transformers, RAG, PySyft & Flower (Federated Learning), Feature Crosses, Pseudo-Labeling, Pandas, NumPy |
+| **Machine Learning & Open-Source AI** | PyTorch, Transformers, RAG, PySyft & Flower (Federated Learning), Scikit-Learn, Pandas, NumPy, Google Colab |
 | **Web Architecture & Extensions** | TypeScript, React 18, Vite, WebExtension Manifest V3, Flask IPC, Shadow DOM, Radix UI Primitives, TailwindCSS JIT, HTML5 Canvas physics simulations, Web Performance |
 | **Systems & Hardware Foundations** | C, C++, Operating Systems, Computer Networks, DBMS, Microcontrollers & Defense Avionics (SSDR, INGPS, SMFD mapping at HAL Korwa) |
 
@@ -277,11 +271,11 @@ Most developer portfolios rely on interchangeable templates that treat projects 
   <img src="./profile/streak.svg" alt="GitHub streak" />
 </p>
 
-<img src="https://ghchart.rshah.org/14b8a6/dhruvv1101" alt="Dhruv's contribution graph" width="92%"/>
+<img src="https://ghchart.rshah.org/FACC15/dhruvv1101" alt="Dhruv's contribution graph" width="92%"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/dhruvv1101/dhruvv1101/output/github-contribution-grid-snake-dark.svg" alt="Snake eating contributions" width="92%" onerror="this.src='https://ghchart.rshah.org/14b8a6/dhruvv1101'"/>
+<img src="profile/pacman-contributions.svg" width="100%" alt="Pacman Contribution Maze" />
 
 <br/><br/>
 
@@ -289,11 +283,11 @@ Most developer portfolios rely on interchangeable templates that treat projects 
 
 If you are building systems where performance, correctness, and architecture need to be measured and proven rather than assumed, I'd love to connect.
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=2DD4BF&center=true&vCenter=true&width=720&lines=measure+first%2C+optimize+second;shipping+real-world+builds+%3E+talking;if+you're+building+systems+that+hold+up+%E2%80%94+let's+talk;dhruv83170%40gmail.com" alt="outro" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=FACC15&center=true&vCenter=true&width=720&lines=measure+first%2C+optimize+second;shipping+real-world+builds+%3E+talking;if+you're+building+systems+that+hold+up+%E2%80%94+let's+talk;dhruv83170%40gmail.com" alt="outro" />
 
 <br/>
 
-[![Say hi](https://img.shields.io/badge/SAY_HI-dhruv83170@gmail.com-14b8a6?style=for-the-badge)](mailto:dhruv83170@gmail.com)
+[![Say hi](https://img.shields.io/badge/SAY_HI-dhruv83170@gmail.com-F59E0B?style=for-the-badge)](mailto:dhruv83170@gmail.com)
 [![Connect](https://img.shields.io/badge/CONNECT-LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/dhruv-verma-34a927282/)
 [![Codolio](https://img.shields.io/badge/CODOLIO-Dhruv83170-F59E0B?style=for-the-badge)](https://codolio.com/profile/Dhruv83170)
 [![GitHub](https://img.shields.io/badge/GITHUB-dhruvv1101-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhruvv1101)
