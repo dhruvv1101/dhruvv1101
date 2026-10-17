@@ -2,31 +2,31 @@
   <defs>
     <!-- Background Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16" />
-      <stop offset="50%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#0a121d" />
+      <stop offset="0%" stop-color="#060913" />
+      <stop offset="50%" stop-color="#0a0f1d" />
+      <stop offset="100%" stop-color="#050811" />
     </linearGradient>
 
-    <!-- Border Gradient -->
+    <!-- Border Gradient: Gold & Hyper Blue -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.8" />
-      <stop offset="35%" stop-color="#14b8a6" stop-opacity="0.9" />
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.9" />
+      <stop offset="35%" stop-color="#fbbf24" stop-opacity="0.9" />
       <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.9" />
     </linearGradient>
 
-    <!-- Name Gradient -->
+    <!-- Name Gradient: Gold to Sky to Violet -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2dd4bf" />
-      <stop offset="40%" stop-color="#38bdf8" />
-      <stop offset="80%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#c084fc" />
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="30%" stop-color="#f59e0b" />
+      <stop offset="70%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a78bfa" />
     </linearGradient>
 
     <!-- Grid Pattern -->
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.35" />
-      <circle cx="0" cy="0" r="1" fill="#14b8a6" fill-opacity="0.25" />
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.45" />
+      <circle cx="0" cy="0" r="1" fill="#f59e0b" fill-opacity="0.3" />
     </pattern>
   </defs>
 
@@ -35,13 +35,13 @@
       font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Consolas, monospace;
     }
     .term-title { font-size: 11px; fill: #64748b; letter-spacing: 1.5px; font-weight: 600; }
-    .hero-name { font-size: 38px; font-weight: 800; letter-spacing: 4px; fill: url(#nameGrad); filter: drop-shadow(0 0 12px rgba(45, 212, 191, 0.25)); }
-    .tagline { font-size: 13px; fill: #cbd5e1; letter-spacing: 1.8px; font-weight: 500; }
+    .hero-name { font-size: 38px; font-weight: 800; letter-spacing: 4px; fill: url(#nameGrad); filter: drop-shadow(0 0 14px rgba(245, 158, 11, 0.28)); }
+    .tagline { font-size: 13px; fill: #e2e8f0; letter-spacing: 1.8px; font-weight: 500; }
     .meta-chip { font-size: 10px; fill: #94a3b8; font-weight: 500; }
-    .highlight { fill: #2dd4bf; font-weight: 700; }
+    .gold-high { fill: #facc15; font-weight: 700; }
     .sky-high { fill: #38bdf8; font-weight: 700; }
     .indigo-high { fill: #a5b4fc; font-weight: 700; }
-    .amber-high { fill: #fbbf24; font-weight: 700; }
+    .rose-high { fill: #f43f5e; font-weight: 700; }
     .blink { animation: blinker 1.1s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
     @keyframes blinker { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
     .scanner-line {
@@ -63,22 +63,22 @@
   <rect class="scanner-line" x="1" y="1" width="918" height="218" rx="13" fill="none" stroke="url(#borderGrad)" stroke-width="1.8" />
 
   <!-- Top Terminal Bar -->
-  <rect x="1" y="1" width="918" height="34" rx="13" fill="#0b1320" fill-opacity="0.8" />
+  <rect x="1" y="1" width="918" height="34" rx="13" fill="#090e1a" fill-opacity="0.9" />
   <path d="M 1 35 L 919 35" stroke="#1e293b" stroke-width="1" />
 
   <!-- Terminal Window Controls -->
-  <circle cx="24" cy="18" r="5" fill="#f87171" fill-opacity="0.9" />
-  <circle cx="42" cy="18" r="5" fill="#fbbf24" fill-opacity="0.9" />
-  <circle cx="60" cy="18" r="5" fill="#34d399" fill-opacity="0.9" />
+  <circle cx="24" cy="18" r="5" fill="#f43f5e" fill-opacity="0.9" />
+  <circle cx="42" cy="18" r="5" fill="#facc15" fill-opacity="0.9" />
+  <circle cx="60" cy="18" r="5" fill="#22c55e" fill-opacity="0.9" />
 
   <!-- Terminal Title & Shell Prompt -->
   <text x="82" y="22" class="term-title">DHRUV_VERMA // ABV-IIITM-GWALIOR (CGPA: 8.18) // SDE-INTERN @ CUREFIT</text>
 
   <!-- Live Status Badge -->
   <g transform="translate(670, 10)">
-    <rect x="0" y="0" width="232" height="17" rx="8.5" fill="#132337" stroke="#1e3a5f" stroke-width="1" />
-    <circle cx="12" cy="8.5" r="4" fill="#10b981" class="blink" />
-    <text x="24" y="12.5" font-size="9" fill="#38bdf8" font-weight="700" letter-spacing="1">STATUS: COMPILING VERIFIED BUILDS</text>
+    <rect x="0" y="0" width="232" height="17" rx="8.5" fill="#181528" stroke="#3730a3" stroke-width="1" />
+    <circle cx="12" cy="8.5" r="4" fill="#facc15" class="blink" />
+    <text x="24" y="12.5" font-size="9" fill="#facc15" font-weight="700" letter-spacing="1">STATUS: COMPILING VERIFIED BUILDS</text>
   </g>
 
   <!-- Hero Content -->
@@ -87,34 +87,34 @@
 
   <!-- Verified Subtitle / Identity -->
   <text x="34" y="116" class="tagline">
-    <tspan fill="#38bdf8">BACKEND SYSTEMS</tspan> · <tspan fill="#2dd4bf">COMPUTER VISION</tspan> · <tspan fill="#818cf8">PREDICTIVE ML</tspan> · <tspan fill="#e2e8f0">PRODUCT ARCHITECTURE</tspan>
+    <tspan fill="#38bdf8">BACKEND SYSTEMS</tspan> · <tspan fill="#facc15">COMPUTER VISION</tspan> · <tspan fill="#818cf8">PREDICTIVE ML</tspan> · <tspan fill="#f43f5e">PRODUCT ARCHITECTURE</tspan>
   </text>
 
   <!-- Terminal Shell Execution Line -->
   <g transform="translate(34, 134)">
-    <rect x="0" y="0" width="852" height="30" rx="6" fill="#0b121f" stroke="#1e293b" stroke-width="1" />
-    <text x="14" y="19" font-size="11.5" fill="#64748b">
-      <tspan fill="#38bdf8">&gt; dhruv.init</tspan>(<tspan fill="#94a3b8">intern=</tspan><tspan fill="#f472b6">"Curefit"</tspan>, <tspan fill="#94a3b8">problems_solved=</tspan><tspan fill="#2dd4bf">1549</tspan>, <tspan fill="#94a3b8">jee_mains=</tspan><tspan fill="#fbbf24">98.18</tspan>, <tspan fill="#94a3b8">codeforces=</tspan><tspan fill="#38bdf8">"Specialist (1411)"</tspan>)
+    <rect x="0" y="0" width="852" height="30" rx="6" fill="#070c16" stroke="#1e293b" stroke-width="1" />
+    <text x="14" y="19" font-size="11" fill="#64748b">
+      <tspan fill="#38bdf8">&gt; dhruv.init</tspan>(<tspan fill="#94a3b8">intern=</tspan><tspan fill="#f472b6">"Curefit"</tspan>, <tspan fill="#94a3b8">problems_solved=</tspan><tspan fill="#facc15">1549</tspan>, <tspan fill="#94a3b8">jee_mains=</tspan><tspan fill="#f43f5e">98.18</tspan>, <tspan fill="#94a3b8">codeforces=</tspan><tspan fill="#38bdf8">"Specialist (1411)"</tspan>)
     </text>
-    <rect x="796" y="8" width="8" height="14" fill="#38bdf8" class="blink" />
+    <rect x="796" y="8" width="8" height="14" fill="#facc15" class="blink" />
   </g>
 
   <!-- Bottom Metadata Row / Chips -->
   <g transform="translate(34, 180)">
     <!-- Pill 1: Education -->
-    <rect x="0" y="0" width="222" height="24" rx="4" fill="#0e1b2e" stroke="#1e324d" stroke-width="1" />
-    <text x="10" y="16" class="meta-chip">🎓 <tspan class="highlight">ABV-IIITM Gwalior</tspan> · EEE '27 (8.18)</text>
+    <rect x="0" y="0" width="222" height="24" rx="4" fill="#0c1222" stroke="#1e293b" stroke-width="1" />
+    <text x="10" y="16" class="meta-chip">🎓 <tspan class="gold-high">ABV-IIITM Gwalior</tspan> · EEE '27 (8.18)</text>
 
     <!-- Pill 2: Curefit Experience -->
-    <rect x="232" y="0" width="210" height="24" rx="4" fill="#0e1b2e" stroke="#1e324d" stroke-width="1" />
+    <rect x="232" y="0" width="210" height="24" rx="4" fill="#0c1222" stroke="#1e293b" stroke-width="1" />
     <text x="242" y="16" class="meta-chip">⚡ <tspan class="sky-high">SDE Intern</tspan> @ Curefit Backend</text>
 
     <!-- Pill 3: Codolio Solved -->
-    <rect x="452" y="0" width="220" height="24" rx="4" fill="#0e1b2e" stroke="#1e324d" stroke-width="1" />
-    <text x="462" y="16" class="meta-chip">⚔️ <tspan class="highlight">1,549+ Solved</tspan> · CF Specialist 1411</text>
+    <rect x="452" y="0" width="220" height="24" rx="4" fill="#0c1222" stroke="#1e293b" stroke-width="1" />
+    <text x="462" y="16" class="meta-chip">⚔️ <tspan class="gold-high">1,549+ Solved</tspan> · CF Specialist 1411</text>
 
     <!-- Pill 4: JEE Mains / Flipkart Grid -->
-    <rect x="682" y="0" width="170" height="24" rx="4" fill="#0e1b2e" stroke="#1e324d" stroke-width="1" />
-    <text x="692" y="16" class="meta-chip">🏆 <tspan class="amber-high">JEE 98.18 %ile</tspan> · Grid Semi</text>
+    <rect x="682" y="0" width="170" height="24" rx="4" fill="#0c1222" stroke="#1e293b" stroke-width="1" />
+    <text x="692" y="16" class="meta-chip">🏆 <tspan class="rose-high">JEE 98.18 %ile</tspan> · Grid Semi</text>
   </g>
 </svg>
