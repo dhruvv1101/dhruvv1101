@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" width="100%" height="540" font-family="'JetBrains Mono', Consolas, 'SFMono-Regular', monospace">
+  <style>
+    .flow { stroke-dasharray: 6 6; animation: dash 1.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -12; } }
+    .pulse { animation: pulse 2.5s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: .6; } 50% { opacity: 1; } }
+    .subhead { font-size: 11px; fill: #64748b; letter-spacing: 1.5px; font-weight: 600; text-transform: uppercase; }
+    .title { font-size: 15px; fill: #f8fafc; font-weight: 700; letter-spacing: 0.5px; }
+    .metric-val { font-size: 16px; font-weight: 800; fill: #f59e0b; }
+    .metric-lbl { font-size: 9.5px; fill: #94a3b8; letter-spacing: 0.8px; text-transform: uppercase; }
+    .box-title { font-size: 13px; font-weight: 700; }
+    .item-txt { font-size: 11px; fill: #cbd5e1; }
+  </style>
+
+  <defs>
+    <!-- Arrow Markers -->
+    <marker id="arr-amber" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#f59e0b"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#14b8a6"/>
+    </marker>
+    <marker id="arr-sky" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#38bdf8"/>
+    </marker>
+
+    <!-- Linear Gradients -->
+    <linearGradient id="bgBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="880" height="540" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+
+  <!-- Top Banner / Header -->
+  <g transform="translate(30, 26)">
+    <rect x="0" y="0" width="12" height="12" rx="3" fill="#f59e0b" />
+    <text x="20" y="11" class="subhead">Kaggle Playground S6E7 // Student Health Risk Pipeline</text>
+    <text x="0" y="36" class="title">GRADIENT BOOSTED ENSEMBLES &amp; SEMI-SUPERVISED PSEUDO-LABELING</text>
+  </g>
+
+  <!-- Key Metrics Strip -->
+  <g transform="translate(530, 24)">
+    <!-- Metric 1 -->
+    <rect x="0" y="0" width="102" height="42" rx="6" fill="#1f180e" stroke="#3d2c14" stroke-width="1"/>
+    <text x="10" y="18" class="metric-val">0.94994</text>
+    <text x="10" y="32" class="metric-lbl">Balanced Acc</text>
+
+    <!-- Metric 2 -->
+    <rect x="110" y="0" width="106" height="42" rx="6" fill="#1f180e" stroke="#3d2c14" stroke-width="1"/>
+    <text x="10" y="18" class="metric-val" fill="#14b8a6">+0.0418</text>
+    <text x="10" y="32" class="metric-lbl">Baseline Gain</text>
+
+    <!-- Metric 3 -->
+    <rect x="224" y="0" width="96" height="42" rx="6" fill="#1f180e" stroke="#3d2c14" stroke-width="1"/>
+    <text x="10" y="18" class="metric-val" fill="#38bdf8">200 Trials</text>
+    <text x="10" y="32" class="metric-lbl">Optuna Search</text>
+  </g>
+
+  <!-- SECTION 1: FEATURE ENGINEERING (LEFT) -->
+  <g transform="translate(30, 95)">
+    <rect width="250" height="340" rx="10" fill="url(#bgBox)" stroke="#854d0e" stroke-width="1.2"/>
+    <rect x="0" y="0" width="250" height="34" rx="10" fill="#451a03" />
+    <rect x="0" y="24" width="250" height="10" fill="#451a03" />
+    <text x="16" y="22" class="box-title" fill="#fbbf24">01 / FEATURE PIPELINE</text>
+
+    <!-- Item 1.1 -->
+    <g transform="translate(14, 48)">
+      <rect width="222" height="52" rx="6" fill="#180e04" stroke="#451a03" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Raw Lifestyle &amp; Vitals Data</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">18 multi-modal student features</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 102 L 125 116" stroke="#f59e0b" stroke-width="1.5" class="flow" marker-end="url(#arr-amber)"/>
+
+    <!-- Item 1.2 -->
+    <g transform="translate(14, 118)">
+      <rect width="222" height="58" rx="6" fill="#180e04" stroke="#451a03" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Stress-to-Sleep Exhaustion</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">(AcademicStress × Hours)/Sleep</text>
+      <text x="12" y="50" font-size="9" fill="#fbbf24">Primary feature importance: 38%</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 178 L 125 192" stroke="#f59e0b" stroke-width="1.5" class="flow" marker-end="url(#arr-amber)"/>
+
+    <!-- Item 1.3 -->
+    <g transform="translate(14, 194)">
+      <rect width="222" height="60" rx="6" fill="#180e04" stroke="#451a03" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Categorical Crosses &amp; Terms</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Target encoding &amp; polynomial exp</text>
+      <text x="12" y="52" font-size="9" fill="#10b981">18 → 54 engineered dimensions</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 256 L 125 270" stroke="#f59e0b" stroke-width="1.5" class="flow" marker-end="url(#arr-amber)"/>
+
+    <!-- Item 1.4 -->
+    <g transform="translate(14, 272)">
+      <rect width="222" height="52" rx="6" fill="#180e04" stroke="#451a03" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Strict In-Fold Transforms</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">0 information leakage guarantee</text>
+    </g>
+  </g>
+
+  <!-- CONNECTOR 1 -> 2 -->
+  <path d="M 280 265 L 315 265" stroke="#f59e0b" stroke-width="2" class="flow" marker-end="url(#arr-amber)"/>
+
+  <!-- SECTION 2: GBDT ENSEMBLE & OPTUNA (MIDDLE) -->
+  <g transform="translate(315, 95)">
+    <rect width="250" height="340" rx="10" fill="url(#bgBox)" stroke="#0d9488" stroke-width="1.2"/>
+    <rect x="0" y="0" width="250" height="34" rx="10" fill="#0f2f35" />
+    <rect x="0" y="24" width="250" height="10" fill="#0f2f35" />
+    <text x="16" y="22" class="box-title" fill="#2dd4bf">02 / GBDT ENSEMBLE</text>
+
+    <!-- Item 2.1 -->
+    <g transform="translate(14, 48)">
+      <rect width="222" height="52" rx="6" fill="#07181c" stroke="#134e4a" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Stratified 5-Fold Validation</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Class-balance preserved (σ=0.0018)</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 102 L 125 116" stroke="#14b8a6" stroke-width="1.5" class="flow" marker-end="url(#arr-teal)"/>
+
+    <!-- Item 2.2 -->
+    <g transform="translate(14, 118)">
+      <rect width="222" height="58" rx="6" fill="#07181c" stroke="#134e4a" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">CatBoost Classifier</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Symmetric decision tree trees</text>
+      <text x="12" y="50" font-size="9" fill="#2dd4bf">Inverse-frequency class weights</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 178 L 125 192" stroke="#14b8a6" stroke-width="1.5" class="flow" marker-end="url(#arr-teal)"/>
+
+    <!-- Item 2.3 -->
+    <g transform="translate(14, 194)">
+      <rect width="222" height="60" rx="6" fill="#07181c" stroke="#134e4a" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">LightGBM Regressor / GOSS</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Gradient-based one-side sampling</text>
+      <text x="12" y="52" font-size="9" fill="#38bdf8">Leaf-wise tree growth architecture</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 256 L 125 270" stroke="#14b8a6" stroke-width="1.5" class="flow" marker-end="url(#arr-teal)"/>
+
+    <!-- Item 2.4 -->
+    <g transform="translate(14, 272)">
+      <rect width="222" height="52" rx="6" fill="#07181c" stroke="#134e4a" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Optuna 200-Trial Search</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Bayesian Hyperband optimization</text>
+    </g>
+  </g>
+
+  <!-- CONNECTOR 2 -> 3 -->
+  <path d="M 565 265 L 600 265" stroke="#14b8a6" stroke-width="2" class="flow" marker-end="url(#arr-teal)"/>
+
+  <!-- SECTION 3: REFINEMENT & OUTCOME (RIGHT) -->
+  <g transform="translate(600, 95)">
+    <rect width="250" height="340" rx="10" fill="url(#bgBox)" stroke="#0369a1" stroke-width="1.2"/>
+    <rect x="0" y="0" width="250" height="34" rx="10" fill="#0c4a6e" />
+    <rect x="0" y="24" width="250" height="10" fill="#0c4a6e" />
+    <text x="16" y="22" class="box-title" fill="#38bdf8">03 / PSEUDO-LABELING</text>
+
+    <!-- Item 3.1 -->
+    <g transform="translate(14, 48)">
+      <rect width="222" height="52" rx="6" fill="#061826" stroke="#075985" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Soft-Voting Probability Blend</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Weighted out-of-fold calibration</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 102 L 125 116" stroke="#38bdf8" stroke-width="1.5" class="flow" marker-end="url(#arr-sky)"/>
+
+    <!-- Item 3.2 -->
+    <g transform="translate(14, 118)">
+      <rect width="222" height="58" rx="6" fill="#061826" stroke="#075985" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">High-Certainty Test Filter</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Softmax confidence gate &gt; 0.96</text>
+      <text x="12" y="50" font-size="9" fill="#38bdf8">Eliminates ambiguous predictions</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 178 L 125 192" stroke="#38bdf8" stroke-width="1.5" class="flow" marker-end="url(#arr-sky)"/>
+
+    <!-- Item 3.3 -->
+    <g transform="translate(14, 194)">
+      <rect width="222" height="60" rx="6" fill="#061826" stroke="#075985" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">Semi-Supervised Retraining</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Augments corpus with pseudo-data</text>
+      <text x="12" y="52" font-size="9" fill="#10b981">+0.0076 Bal-Acc metric jump</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 125 256 L 125 270" stroke="#38bdf8" stroke-width="1.5" class="flow" marker-end="url(#arr-sky)"/>
+
+    <!-- Item 3.4 -->
+    <g transform="translate(14, 272)">
+      <rect width="222" height="52" rx="6" fill="#061826" stroke="#075985" stroke-width="1"/>
+      <text x="12" y="22" class="item-txt" font-weight="600">0.94994 Benchmark Met</text>
+      <text x="12" y="38" font-size="10" fill="#64748b">Nelder-Mead threshold optimized</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM ARCHITECTURAL DECISION STRIP -->
+  <g transform="translate(30, 455)">
+    <rect width="820" height="58" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <!-- Pill 1 -->
+    <rect x="16" y="14" width="250" height="30" rx="5" fill="#261608" stroke="#78350f" stroke-width="1"/>
+    <text x="26" y="33" font-size="10.5" fill="#fbbf24" font-weight="600">DEC-01: Domain Stress-to-Sleep Ratios</text>
+
+    <!-- Pill 2 -->
+    <rect x="280" y="14" width="260" height="30" rx="5" fill="#0a2321" stroke="#134e4a" stroke-width="1"/>
+    <text x="290" y="33" font-size="10.5" fill="#2dd4bf" font-weight="600">DEC-02: Inverse-Frequency Class Weights</text>
+
+    <!-- Pill 3 -->
+    <rect x="554" y="14" width="250" height="30" rx="5" fill="#091b26" stroke="#075985" stroke-width="1"/>
+    <text x="564" y="33" font-size="10.5" fill="#38bdf8" font-weight="600">DEC-03: Confidence Gate &gt; 0.96 Pseudo-Labels</text>
+  </g>
+</svg>
