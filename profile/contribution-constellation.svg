@@ -3,8 +3,8 @@
 <style>text{font-family:Georgia,serif;fill:#2f3437}.meta{font:12px Arial,sans-serif;fill:#787774}@media(prefers-reduced-motion:reduce){.runner{display:none}}</style>
 <rect x="1" y="1" width="898" height="188" rx="8" fill="#fbfbfa" stroke="#eaeaea"/>
 <text x="30" y="34" font-size="18">Contribution constellation</text>
-<text class="meta" x="870" y="34" text-anchor="end">292 contributions / Nov 2025–Oct 2026</text>
-<polyline fill="none" stroke="#b4c8c0" stroke-width="1.5" points="55.0,103.1 126.8,110.2 198.6,120.7 270.4,109.4 342.2,112.1 414.0,126.0 485.8,109.4 557.6,90.7 629.4,62.0 701.2,99.7 773.0,126.0 844.8,103.7"/>
+<text class="meta" x="870" y="34" text-anchor="end">293 contributions / Nov 2025–Oct 2026</text>
+<polyline fill="none" stroke="#b4c8c0" stroke-width="1.5" points="55.0,103.1 126.8,110.2 198.6,120.7 270.4,109.4 342.2,112.1 414.0,126.0 485.8,109.4 557.6,90.7 629.4,62.0 701.2,99.7 773.0,126.0 844.8,103.1"/>
 <circle cx="55.0" cy="103.1" r="5.5" fill="#346538" stroke="#fbfbfa" stroke-width="2"/>
 <text class="meta" x="55.0" y="158" text-anchor="middle">Nov</text>
 <circle cx="126.8" cy="110.2" r="4.9" fill="#346538" stroke="#fbfbfa" stroke-width="2"/>
@@ -27,6 +27,6 @@
 <text class="meta" x="701.2" y="158" text-anchor="middle">Aug</text>
 <circle cx="773.0" cy="126.0" r="3.5" fill="#346538" stroke="#fbfbfa" stroke-width="2"/>
 <text class="meta" x="773.0" y="158" text-anchor="middle">Sep</text>
-<circle cx="844.8" cy="103.7" r="5.4" fill="#346538" stroke="#fbfbfa" stroke-width="2"/>
+<circle cx="844.8" cy="103.1" r="5.5" fill="#346538" stroke="#fbfbfa" stroke-width="2"/>
 <text class="meta" x="844.8" y="158" text-anchor="middle">Oct</text>
 </svg>
