@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="900" height="190" role="img">
+<title>Pac-Man eating a year of monthly contribution dots</title>
+<style>text{font-family:Georgia,serif;fill:#2f3437}.meta{font:12px Arial,sans-serif;fill:#787774}@media(prefers-reduced-motion:reduce){.runner{display:none}}</style>
+<rect x="1" y="1" width="898" height="188" rx="8" fill="#fbfbfa" stroke="#eaeaea"/>
+<text x="30" y="34" font-size="18">Pac-Man / contributions</text>
+<text class="meta" x="870" y="34" text-anchor="end">Dots scale with monthly activity</text>
+<line x1="48" y1="104" x2="852" y2="104" stroke="#d7d4cd" stroke-width="1"/>
+<circle cx="55.0" cy="104" r="4.4" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.0033;0.0183;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="55.0" y="157" text-anchor="middle">Nov</text>
+<circle cx="126.8" cy="104" r="4.0" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.0909;0.1059;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="126.8" y="157" text-anchor="middle">Dec</text>
+<circle cx="198.6" cy="104" r="3.3" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.1784;0.1934;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="198.6" y="157" text-anchor="middle">Jan</text>
+<circle cx="270.4" cy="104" r="4.0" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.2660;0.2810;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="270.4" y="157" text-anchor="middle">Feb</text>
+<circle cx="342.2" cy="104" r="3.9" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.3535;0.3685;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="342.2" y="157" text-anchor="middle">Mar</text>
+<circle cx="414.0" cy="104" r="3.0" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4411;0.4561;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="414.0" y="157" text-anchor="middle">Apr</text>
+<circle cx="485.8" cy="104" r="4.0" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5287;0.5437;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="485.8" y="157" text-anchor="middle">May</text>
+<circle cx="557.6" cy="104" r="5.2" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.6162;0.6312;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="557.6" y="157" text-anchor="middle">Jun</text>
+<circle cx="629.4" cy="104" r="7.0" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.7038;0.7188;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="629.4" y="157" text-anchor="middle">Jul</text>
+<circle cx="701.2" cy="104" r="4.6" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.7913;0.8063;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="701.2" y="157" text-anchor="middle">Aug</text>
+<circle cx="773.0" cy="104" r="3.0" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.8789;0.8939;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="773.0" y="157" text-anchor="middle">Sep</text>
+<circle cx="844.8" cy="104" r="4.4" fill="#8cae91"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.9665;0.9815;0.99;1" dur="12s" repeatCount="indefinite"/></circle>
+<text class="meta" x="844.8" y="157" text-anchor="middle">Oct</text>
+<g class="runner" transform="translate(40 104)">
+<animateTransform attributeName="transform" type="translate" from="40 104" to="860 104" dur="12s" repeatCount="indefinite"/>
+<path d="M0 0 L12 -9 A15 15 0 0 0 -15 0 Z" fill="#956400"><animateTransform attributeName="transform" type="rotate" values="0;18;0" dur="0.35s" repeatCount="indefinite"/></path>
+<path d="M0 0 L12 9 A15 15 0 0 1 -15 0 Z" fill="#956400"><animateTransform attributeName="transform" type="rotate" values="0;-18;0" dur="0.35s" repeatCount="indefinite"/></path>
+<circle cx="-2" cy="-7" r="1.5" fill="#2f3437"/>
+</g>
+</svg>
