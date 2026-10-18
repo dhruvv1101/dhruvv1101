@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="100%" height="230" font-family="'JetBrains Mono', Consolas, 'SFMono-Regular', monospace">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1222" />
+      <stop offset="100%" stop-color="#080d19" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .quad-title { font-size: 12px; font-weight: 700; letter-spacing: 1px; }
+    .quad-stat { font-size: 15px; font-weight: 800; }
+    .quad-desc { font-size: 10px; fill: #94a3b8; line-height: 1.45; }
+    .pulse-dot { animation: pDot 2s ease-in-out infinite; }
+    @keyframes pDot { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="880" height="230" rx="14" fill="#080c14" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Header -->
+  <g transform="translate(24, 20)">
+    <circle cx="6" cy="6" r="4" fill="#facc15" class="pulse-dot" />
+    <text x="18" y="10" font-size="11" fill="#64748b" font-weight="700" letter-spacing="1.5">ENGINEERING DOMAIN MATRIX // CAPABILITIES &amp; EMPIRICAL PROOFS</text>
+  </g>
+
+  <!-- 4 Columns / Cards -->
+  <!-- Card 1: Backend & Distributed Flows -->
+  <g transform="translate(24, 46)">
+    <rect width="198" height="160" rx="8" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1"/>
+    <rect x="0" y="0" width="198" height="3" rx="1" fill="#38bdf8"/>
+    <text x="14" y="26" class="quad-title" fill="#38bdf8">BACKEND FLOWS</text>
+    <text x="14" y="50" class="quad-stat" fill="#f8fafc">Curefit SDE Intern</text>
+    <text x="14" y="66" font-size="9" fill="#38bdf8" font-weight="600">May 2026 – Present</text>
+    <path d="M 14 76 L 184 76" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="94" class="quad-desc">Redis-MongoDB Distributed Lock</text>
+    <text x="14" y="110" class="quad-desc">Formbricks SDK in 2 flows</text>
+    <text x="14" y="126" class="quad-desc">Uniware Invoice Shipment HLD</text>
+    <text x="14" y="142" class="quad-desc" fill="#facc15">Java · Spring · Mongo · Redis</text>
+  </g>
+
+  <!-- Card 2: Computer Vision & Automation -->
+  <g transform="translate(236, 46)">
+    <rect width="198" height="160" rx="8" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1"/>
+    <rect x="0" y="0" width="198" height="3" rx="1" fill="#facc15"/>
+    <text x="14" y="26" class="quad-title" fill="#facc15">VISION &amp; ROBOTICS</text>
+    <text x="14" y="50" class="quad-stat" fill="#f8fafc">ChessFlow 95%+ Rel</text>
+    <text x="14" y="66" font-size="9" fill="#facc15" font-weight="600">Stockfish 17 (Jun 2026)</text>
+    <path d="M 14 76 L 184 76" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="94" class="quad-desc">31.4 FPS Hand Tracking</text>
+    <text x="14" y="110" class="quad-desc">&lt;2s engine recommendations</text>
+    <text x="14" y="126" class="quad-desc">Cached DOM board coordinates</text>
+    <text x="14" y="142" class="quad-desc" fill="#38bdf8">OpenCV · Python · Selenium</text>
+  </g>
+
+  <!-- Card 3: Open Source & Applied AI -->
+  <g transform="translate(448, 46)">
+    <rect width="198" height="160" rx="8" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1"/>
+    <rect x="0" y="0" width="198" height="3" rx="1" fill="#f43f5e"/>
+    <text x="14" y="26" class="quad-title" fill="#f43f5e">OPEN-SOURCE AI</text>
+    <text x="14" y="50" class="quad-stat" fill="#f8fafc">GSSoC '25 Mentor</text>
+    <text x="14" y="66" font-size="9" fill="#f43f5e" font-weight="600">May 2025 – Aug 2025</text>
+    <path d="M 14 76 L 184 76" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="94" class="quad-desc">Karbon &amp; DataSentience-AIML</text>
+    <text x="14" y="110" class="quad-desc">Transformers + RAG Chatbot</text>
+    <text x="14" y="126" class="quad-desc">PySyft &amp; Flower Fed-Learning</text>
+    <text x="14" y="142" class="quad-desc" fill="#a78bfa">PyTorch · RAG · Federated AI</text>
+  </g>
+
+  <!-- Card 4: Browser IPC & Editorial Web -->
+  <g transform="translate(660, 46)">
+    <rect width="198" height="160" rx="8" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1"/>
+    <rect x="0" y="0" width="198" height="3" rx="1" fill="#a78bfa"/>
+    <text x="14" y="26" class="quad-title" fill="#a5b4fc">SYSTEMS &amp; APPS</text>
+    <text x="14" y="50" class="quad-stat" fill="#f8fafc">IntentLens &amp; Web</text>
+    <text x="14" y="66" font-size="9" fill="#a5b4fc" font-weight="600">Feb 2026 – Jul 2026</text>
+    <path d="M 14 76 L 184 76" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="94" class="quad-desc">IntentLens: Chrome MV3 + IPC</text>
+    <text x="14" y="110" class="quad-desc">Editorial Web: 99 / 100 Speed</text>
+    <text x="14" y="126" class="quad-desc">1,549+ Verified DSA Problems</text>
+    <text x="14" y="142" class="quad-desc" fill="#facc15">React 18 · Flask · MV3 · Vite</text>
+  </g>
+</svg>
