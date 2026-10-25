@@ -276,9 +276,9 @@ Most developer portfolios rely on interchangeable templates that treat projects 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhruvv1101/dhruvv1101/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhruvv1101/dhruvv1101/output/pacman-contribution-graph.svg">
-  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/dhruvv1101/dhruvv1101/output/pacman-contribution-graph.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="assets/pacman-contribution-graph.svg">
 </picture>
 
 <br/><br/>
