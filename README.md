@@ -275,7 +275,11 @@ Most developer portfolios rely on interchangeable templates that treat projects 
 
 <br/><br/>
 
-<img src="profile/pacman-contributions.svg" width="100%" alt="Pacman Contribution Maze" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhruvv1101/dhruvv1101/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhruvv1101/dhruvv1101/output/pacman-contribution-graph.svg">
+  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/dhruvv1101/dhruvv1101/output/pacman-contribution-graph.svg" width="100%">
+</picture>
 
 <br/><br/>
 
